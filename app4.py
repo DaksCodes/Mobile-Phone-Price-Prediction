@@ -8,7 +8,7 @@ with open(r'DecisionTreeModelPhone.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the dataset to extract options
-data = pd.read_csv(r'C:\Users\adaks\AppData\Local\Programs\Python\Python312\Scripts\Phone Price Prediction\Phone_cleaned_dataset.csv')
+data = pd.read_csv(r'Phone_cleaned_dataset.csv')
 # Extract unique brands
 brands = data['Brand me'].unique()
 
