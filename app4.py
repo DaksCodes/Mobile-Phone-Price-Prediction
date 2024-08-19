@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load the model
-with open(r'C:\Users\adaks\AppData\Local\Programs\Python\Python312\Scripts\Phone Price Prediction\DecisionTreeModelPhone.pkl', 'rb') as file:
+with open(r'DecisionTreeModelPhone.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the dataset to extract options
